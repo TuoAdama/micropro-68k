@@ -17,9 +17,9 @@ START:                  ; first instruction of program
     
     cmp d2,d3 ; On compare ici d2 et d3 
     
-    bhi grand
+    bge grand
     
-    blo petit
+    ble petit
     
     beq egale    
     
